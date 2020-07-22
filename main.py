@@ -3,9 +3,7 @@ import pygame
 pygame.init()
 
 gameDisplay = pygame.display.set_mode((800,600))
-pygame.display.set_caption('A bit Racey')
-
-clock = pygame.time.Clock()
+pygame.display.set_caption('Minesweeper!')
 
 crashed = False
 
@@ -19,7 +17,6 @@ while not crashed:
             print(event)
 
     pygame.display.update()
-    clock.tick(60)
 
 pygame.quit()
 quit()
